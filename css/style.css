@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Caveat Brush', cursive;
+}
+
+header {
+    background-image: url(../img/planches.jpg);
+    height: 500px;
+    color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+hr {
+    margin: auto;
+    background-color: blueviolet;
+    height: 5px;
+    width: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.navbar li {
+    text-decoration: underline;
+}
+
+.licorne {
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.col-1 {
+    margin-top: 30px;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+.story {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.est {
+    text-align: center;
+    color: blueviolet;
+}
+
+.col-2 {
+    display: flex;
+    border-radius: 65px;
+    margin-left: 300px;
+    margin-right: 100px;
+    box-shadow: 8px 5px blueviolet;
+}
+
+.contenu {
+    display: flex;
+    margin: 50px;
+}
+
+.col-3 {
+    border-radius: 65px;
+}
+
+.col-4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fresh {
+    margin-top: 30px;
+}
+.natural {
+    text-align: center;
+    color: blueviolet;
+}
+
+.col-5 {
+    border-radius: 65px;
+    box-shadow: 8px 5px blueviolet;
+}
+
+.lorem {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.craft {
+    text-align: center;
+    color: blueviolet;
+}
+
+.moule {
+    height: 500px;
+    align-items: center;
+    display: block;
+    margin: auto;
+    border-radius: 65px;
+    box-shadow: 8px 5px blueviolet;
+    margin-bottom: 50px;
+}
+
+footer {
+    background: url(../img/motif.jpg);
+}
+
+.contact-page {
+    text-align: center;
+}
+
+.icon {
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    color: rgb(248, 69, 114);
+    font-size: 1.4em;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+i {
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    *{
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+        font-family: 'Caveat Brush', cursive;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .col-1 {
+        flex-direction: column;
+    }
+
+    .col-2 {
+        margin-top: 30px;
+        margin: 0 auto;
+        width: 70%;
+        border-radius: 20px;
+    }
+
+    .col-3{
+        margin-top: 30px;
+        margin: 0 auto;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .col-4{
+        display: block;
+        font-size: 5px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .col-5{
+        margin-top: 30px;
+        margin: 0 auto;
+        width: 70%;
+        border-radius: 20px;
+    }
+
+    .local{
+        flex-direction: column;
+    }
+
+    .moule {
+        width: 70%;
+        height: 70%;
+        border-radius: 20px;
+    }
+
+    .footer_flex {
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+    }
+}
+
